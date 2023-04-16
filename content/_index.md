@@ -18,13 +18,14 @@ title: "LabIX"
 date: 2023-04-16T16:52:17+02:00
 ---
 
+
 # What is this?
 Labitat Internet Exchange (LabIX) is a non-profit internet exchange created for network research and learning purposes, located in [Labitat (AS205235)](https://www.peeringdb.com/net/23277), a hackerspace based in Copenhagen, Denmark. The project aims to provide an environment for interested parties to experiment with network routing, in order to gain hands-on experience with the workings of the Internet. LabIX is a community-driven initiative created by students from Technical University of Denmark.
 
 # Status
-LabIX is still in its infancy; we are in the process of requesting an ASN from the [Freetransit project](https://www.freetransit.ch/) and are setting the initial hardware/software.
+LabIX is still in its infancy; we are in the process of requesting an ASN from the [Freetransit project](https://www.freetransit.ch/) and are setting the initial hardware/software, like a route server.
 
-Ongoing:  
+Ongoing:
 - ASN allocation
 - IX prefix allocation as specified in [RIPE 733](https://www.ripe.net/publications/docs/ripe-733#61)
 - Initial Route Server BIRD config

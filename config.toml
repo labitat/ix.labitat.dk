@@ -1,6 +1,7 @@
 baseURL = 'https://ix.labitat.dk/'
 languageCode = 'en-us'
 title = 'LabIX'
+enableRobotsTXT = true
 
 [[module.imports]]
 path = "github.com/willfaught/paige"
