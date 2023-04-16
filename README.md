@@ -1,10 +1,12 @@
-Website files for [ix.labitat.dk](https://ix.labitat.dk/]
+# LabIX
 
-Build on [Hugo](https://gohugo.io/) and using the [Paige](https://github.com/willfaught/paige)
+Website files for [ix.labitat.dk](https://ix.labitat.dk/).
+
+It is build using the static site generator [Hugo](https://gohugo.io/) and uses the [Paige](https://github.com/willfaught/paige) theme.
 
 
 ## Setup
-Taken from [Paige docs](https://github.com/willfaught/paige/blob/master/README.md):
+Much inspiration from [Paige docs](https://github.com/willfaught/paige/blob/master/README.md):
 
 1. [Install Hugo](https://gohugo.io/installation/) (the extended version, and at least 0.111.3).
 
@@ -75,4 +77,4 @@ hugo
 Files can be found in the `public/` directory, it does not include any [draft, future or expired content](https://gohugo.io/getting-started/usage/#draft-future-and-expired-content).
 
 
-CI/CD deployment has not been set up yet.
+Note that CI/CD deployment has not been set up yet.
