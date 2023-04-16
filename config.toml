@@ -1,7 +1,10 @@
-baseURL = 'https://ix.labitat.dk/'
-languageCode = 'en-us'
-title = 'LabIX'
+baseURL = "https://ix.labitat.dk/"
+languageCode = "en-us"
+title = "LabIX"
+copyright = "LabIX project. [website Git repository](https://github.com/labitat/ix.labitat.dk)"
 enableRobotsTXT = true
+timezone = "Europe/Copenhagen"
+enableGitInfo = true
 
 [[module.imports]]
 path = "github.com/willfaught/paige"
@@ -14,7 +17,7 @@ disable = true
 
 [paige.date]
 format = ":date_long"
-source = "published"
+source = "modified"
 
 [paige.menu]
 breakpoint = "sm"
@@ -29,8 +32,12 @@ name = "Home"
 url = "/"
 weight = 10
 
-[[languages.en.menu.main]]
-identifier = "test"
-name = "test"
-url = "/test/"
-weight = 10
+# Git dates
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']
+
+[outputs]
+home = ["html", "json", "rss"]
