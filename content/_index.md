@@ -56,6 +56,11 @@ Following policy guidelines are mandatory for the safety of our peering platform
 -   Routes learnt through peering network are not allowed to be announced by BGP
 -   Connecting via any type of tunnel or VPN/Defragmented MTU is prohibited.
 
+You will be assigned an address within the following subnets:
+
+- 185.0.29.0/24
+- 2001:7f8:149::/48
+
 # Cost
 
 Participation in the IX is free. It is a possibility to place hardware at [Labocolo](https://labitat.dk/wiki/Labicolo) in Labitat to connect.
