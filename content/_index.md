@@ -75,7 +75,7 @@ We use arouteserver as configuration parser and BIRD as BGP speaker on a [Dell W
 
 If you have any questions, contact us at {{< paige/email
     address="labix@labitat.dk"
-    text="labix@labitat.dk" >}}
+    text="labix (at) labitat.dk" >}}
 or meet us at Labitat in Frederiksberg.
 
 
