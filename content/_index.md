@@ -30,12 +30,14 @@ LabIX is still in its infancy; We are currently setting up the initial hardware/
 Ongoing:
 - ~~ASN allocation~~ AS60247
 - ~~IX prefix allocation as specified in [RIPE 733](https://www.ripe.net/publications/docs/ripe-733#61)~~ Acquired, see [route server](#route-server)
-- Initial Route Server BIRD config
+- ~~Initial Route Server BIRD config~~ See [repository](https://github.com/Hafpaf/labix) using arouteserver.
 - Choosing BGP filtering strategies
 	- Based on slides from Job Snijders, LACNIC29, 3 May 2018: [slides](https://www.lacnic.net/innovaportal/file/2621/1/lacnic29_peering_tutorial.pdf) (PDF)
 	- Based on the [BGP Filter Guide](https://bgpfilterguide.nlnog.net/) from NLNOG  
-- Setting Up peering LAN
+    - RPKI with routinator
+- Setting up peering LAN
 - Creating automation toolchain: [repo](https://github.com/Hafpaf/labix)
+- Write initial documentation
 
 # Route Server
 
