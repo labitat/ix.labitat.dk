@@ -15,7 +15,7 @@ paige:
     }
 
 title: "LabIX"
-date: 2023-04-16T16:52:17+02:00
+date: 
 ---
 
 
@@ -34,6 +34,8 @@ Ongoing:
 - Choosing BGP filtering strategies
 	- Based on slides from Job Snijders, LACNIC29, 3 May 2018: [slides](https://www.lacnic.net/innovaportal/file/2621/1/lacnic29_peering_tutorial.pdf) (PDF)
 	- Based on the [BGP Filter Guide](https://bgpfilterguide.nlnog.net/) from NLNOG  
+- Setting Up peering LAN
+- Creating automation toolchain: [repo](https://github.com/Hafpaf/labix)
 
 # Route Server
 
