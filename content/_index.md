@@ -1,5 +1,5 @@
 ---
-description: "Labitat Internet Exachange"
+description: "Labitat Internet Exchange"
 paige:
   style: |
     #paige-collections,
