@@ -30,13 +30,19 @@ weight = 10
 identifier = "home"
 name = "Home"
 url = "/"
-weight = 10
+weight = 10 # Sort by weight, left side weighs less
 
 [[languages.en.menu.main]]
 identifier = "members"
 name = "Members"
 url = "/members/"
 weight = 20
+
+[[languages.en.menu.main]]
+identifier = "bornhack"
+name = "BornHack"
+url = "/BornHack/"
+weight = 40
 
 [languages.en.menu.main.params.paige]
 divider_below = true
@@ -51,3 +57,4 @@ divider_below = true
 [outputs]
 home = ["html", "json", "rss"]
 members = ["html", "json", "rss"]
+bornhack = ["html", "json", "rss"]
