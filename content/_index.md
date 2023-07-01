@@ -31,12 +31,12 @@ Ongoing:
 - ~~ASN allocation~~ AS60247
 - ~~IX prefix allocation as specified in [RIPE 733](https://www.ripe.net/publications/docs/ripe-733#61)~~ Acquired, see [route server](#route-server)
 - ~~Initial Route Server BIRD config~~ See [repository](https://github.com/Hafpaf/labix) using ARouteServer.
-- ~~Choosing BGP filtering strategies~~. ARouteServer has excelent filtering strategies builtin
+- ~~Choosing BGP filtering strategies~~. ARouteServer has excellent filtering strategies built-in
 	- Based on slides from Job Snijders, LACNIC29, 3 May 2018: [slides](https://www.lacnic.net/innovaportal/file/2621/1/lacnic29_peering_tutorial.pdf) (PDF)
 	- Based on the [BGP Filter Guide](https://bgpfilterguide.nlnog.net/) from NLNOG  
     - RPKI with routinator
 - ~~Setting up peering LAN~~
-- Creating automation tool-chain: [repositoru](https://github.com/labitat/labix)
+- Creating automation tool-chain: [repository](https://github.com/labitat/labix)
 - ~~Write initial documentation~~ Could always use more documentation
 
 # Route Server
