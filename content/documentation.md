@@ -20,6 +20,8 @@ paige:
 title: "Documentation"
 ---
 
+These configuration examples assume your machine is present at [Labicolo](https://www.peeringdb.com/fac/13816) and use Labitat as BGP transit.
+
 ## Linux
 ### Networking
 
@@ -29,7 +31,7 @@ Replace interface name corresponding to yours, and replace addresses in \<bracke
 
 {{< paige/code
     lang="bash"
-    options="linenos=true,hl_lines=21" >}}{{% include "content/data/enp1s0" %}}
+    options="linenos=true,hl_lines=21-27" >}}{{% include "content/data/enp1s0" %}}
 {{< /paige/code >}}
 
 Reload config with `systemctl restart networking.service`.
