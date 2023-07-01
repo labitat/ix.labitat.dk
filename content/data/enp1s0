@@ -1,0 +1,26 @@
+# Labicolo addressing
+## IPv4
+auto enp1s0
+iface enp1s0 inet static
+        address <labicolo_v4_address>/26
+        gateway 185.38.175.65
+
+## IPv6
+## Note: 
+## - Disables Duplicate Address Detection (DAD), this skips the timeout when reloading an 
+#    interface, but WILL create issues if address is already in use.
+#  - Disables Route Advertisements 
+iface enp1s0 inet6 static
+        address <labicolo_v6_address>/64
+        gateway 2a01:4262:1ab:20::1
+        dad-attempts 0
+        accept_ra 0
+
+#LabIX. VLAN 42
+auto enp1s0.42
+iface enp1s0.42 inet static
+        address <peering_lan_v4_address>/24
+iface enp1s0.42 inet6 static
+        address <peering_lan_v6_address>/64
+        dad-attempts 0
+        accept_ra 0

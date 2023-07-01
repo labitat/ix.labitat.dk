@@ -39,6 +39,12 @@ url = "/members/"
 weight = 20
 
 [[languages.en.menu.main]]
+identifier = "documentation"
+name = "Documentation"
+url = "/documentation/"
+weight = 30
+
+[[languages.en.menu.main]]
 identifier = "bornhack"
 name = "BornHack"
 url = "/BornHack/"
@@ -57,4 +63,5 @@ divider_below = true
 [outputs]
 home = ["html", "json", "rss"]
 members = ["html", "json", "rss"]
+documentation = ["html", "json", "rss"]
 bornhack = ["html", "json", "rss"]
