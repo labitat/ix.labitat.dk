@@ -38,6 +38,7 @@ Ongoing:
 - ~~Setting up peering LAN~~
 - Creating automation tool-chain: [repository](https://github.com/labitat/labix)
 - ~~Write initial documentation~~ Could always use more documentation
+- Setup looking glass
 
 # Route Server
 
