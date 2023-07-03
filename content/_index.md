@@ -27,7 +27,7 @@ Labitat Internet Exchange (LabIX) is a non-profit internet exchange created for 
 
 LabIX is still in its infancy; We are currently setting up the initial hardware/software.
 
-Ongoing:
+Ongoing: *Updated 2023-07-03*
 - ~~ASN allocation~~ AS60247
 - ~~IX prefix allocation as specified in [RIPE 733](https://www.ripe.net/publications/docs/ripe-733#61)~~ Acquired, see [route server](#route-server)
 - ~~Initial Route Server BIRD config~~ See [repository](https://github.com/Hafpaf/labix) using ARouteServer.
@@ -37,8 +37,21 @@ Ongoing:
     - RPKI with routinator
 - ~~Setting up peering LAN~~
 - Creating automation tool-chain: [repository](https://github.com/labitat/labix)
-- ~~Write initial documentation~~ Could always use more documentation
+  - Create IX-F export. [IXPDB entry](https://ixpdb.euro-ix.net/en/ixpdb/ixp/1233/)
+    - Expose to website
+    - [PeeringDB import](https://www.peeringdb.com/ix/4193) with IX-F schema
+  - IX_clients.yml export to website member list
+  - Finish website automation
+    - Document website automation
+  - Document Ansible deployment
+- Documentation
+  - ~~Write initial documentation~~
+  - How to join
+  - Address plan
+  - VLAN 42
+  - Administrator guides
 - Setup looking glass
+- Move machines in [Labicolo](https://labitat.dk/wiki/Labicolo) to separate switch
 
 # Route Server
 
