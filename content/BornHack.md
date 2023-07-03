@@ -23,7 +23,7 @@ title: "LabIX @ BornHack"
 ## Welcome
 Hi camping network nerds,
 
-Labitat Internet Exchange (LabIX) will temporarily become a multi-site IX, as we will be present at [BornHack 2023](https://bornhack.dk/). More concretely, we will transport our local peering LAN (VLAN 42) via our upstream provider to the scouting field in Gelsted at BornHack, so you can peer with our members in Labitat and at BornHack.
+Labitat Internet Exchange (LabIX) will temporarily become a multi-site IX, as we will be present at [BornHack 2023](https://bornhack.dk/). More concretely, we will transport our local peering LAN via our upstream provider to a VLAN the scouting field in Gelsted at BornHack, so you can peer with our members in Labitat and at BornHack.
 
 ## Why even do this?
 It has now become a tradition for the NOC team at BornHack to ask participant to USE MORE BANDWIDTH. This is of course not about abusing speedtest servers in order to achieve the highest possible throughput or hog the network from other participants, but to use the bandwidth for use-cases that benefits the event, participant or our society.
