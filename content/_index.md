@@ -7,6 +7,7 @@ paige:
     #paige-date,
     #paige-reading-time,
     paige-menu,
+    #paige-toc,
     #paige-pages {
       display: none;
     }
@@ -25,17 +26,12 @@ Labitat Internet Exchange (LabIX) is a non-profit internet exchange created for 
 
 # Status
 
-LabIX is still in its infancy; We are currently setting up the initial hardware/software.
+LabIX is operational. There is of course work to be done on supporting software like member export schema and automation tool-chain.
 
-Ongoing: *Updated 2023-07-03*
-- ~~ASN allocation~~ AS60247
-- ~~IX prefix allocation as specified in [RIPE 733](https://www.ripe.net/publications/docs/ripe-733#61)~~ Acquired, see [route server](#route-server)
-- ~~Initial Route Server BIRD config~~ See [repository](https://github.com/Hafpaf/labix) using ARouteServer.
-- ~~Choosing BGP filtering strategies~~. ARouteServer has excellent filtering strategies built-in
-	- Based on slides from Job Snijders, LACNIC29, 3 May 2018: [slides](https://www.lacnic.net/innovaportal/file/2621/1/lacnic29_peering_tutorial.pdf) (PDF)
-	- Based on the [BGP Filter Guide](https://bgpfilterguide.nlnog.net/) from NLNOG  
-    - RPKI with routinator
-- ~~Setting up peering LAN~~
+If you want to contribute. Please let us know.
+
+## Ongoing: *Updated 2023-10-03*
+
 - Creating automation tool-chain: [repository](https://github.com/labitat/labix)
   - Create IX-F export. [IXPDB entry](https://ixpdb.euro-ix.net/en/ixpdb/ixp/1233/)
     - Expose to website
@@ -52,6 +48,20 @@ Ongoing: *Updated 2023-07-03*
   - Administrator guides
 - Setup looking glass
 - Move machines in [Labicolo](https://labitat.dk/wiki/Labicolo) to separate switch
+  - ~~Some machines moved~~
+- 9000 MTU
+  - Create separate VLAN for jumbo frames
+- Create mailing list
+
+## Already done
+- ~~ASN allocation for Route Server~~ AS60247
+- ~~IX prefix allocation as specified in [RIPE 733](https://www.ripe.net/publications/docs/ripe-733#61)~~ Acquired, see [route server](#route-server)
+- ~~Initial Route Server BIRD config~~ See [repository](https://github.com/Hafpaf/labix) using ARouteServer.
+- ~~BGP filtering strategies~~. [ARouteServer](https://arouteserver.readthedocs.io/) has excellent filtering strategies built-in
+	- Based on slides from Job Snijders, LACNIC29, 3 May 2018: [slides](https://www.lacnic.net/innovaportal/file/2621/1/lacnic29_peering_tutorial.pdf) (PDF)
+	- Based on the [BGP Filter Guide](https://bgpfilterguide.nlnog.net/) from NLNOG
+    - RPKI with routinator
+- ~~Setting up peering LAN~~
 
 # Route Server
 
@@ -87,7 +97,15 @@ Participation in the IX itself is free. However, it is currently required that h
 
 # Software / Hardware
 
-We use [ARouteServer](https://arouteserver.readthedocs.io/) as configuration parser for BIRD, our BGP speaker. It runs on a [Dell Wyse 3030](https://www.parkytowers.me.uk/thin/wyse/3030/). This is due to the availability of the hardware and the low power usage (6W). Our switching hardware is a pre-used Cisco SG300-52.
+We use [ARouteServer](https://arouteserver.readthedocs.io/) as configuration parser for the BGP speaker, BIRD. It runs on a [Dell Wyse 3030](https://www.parkytowers.me.uk/thin/wyse/3030/). This is due to the availability of the hardware and the low power usage (6W). Our switching hardware is a pre-used Cisco SG300-52.
+
+# Presentations
+
+I (Hafnium) presented at BornHack 2023 and CCCamp 2023 about how we set up LabIX and some of the things we learned along the way, like LIR services, RIPE DB and IXP operation. The talks also included some basics of how the networks connects to each other to create the internet. Both talks are similar with minor changes and corrections.
+
+*LabIX: Creating an Internet Exchange in Your Local Hackerspace*
+- Chaos Communication Camp 2023: [video](https://media.ccc.de/v/camp2023-57179-labix) ([slides v.2](https://presentation.hafnium.me/labix_presentation_v2.pdf))
+- BornHack 2023: [video](https://media.ccc.de/v/bornhack2023-56119-labix-creating-an-int) ([slides v.1](https://presentation.hafnium.me/labix_presentation_v1.pdf))
 
 # Contact details
 
@@ -96,9 +114,8 @@ If you have any questions, contact us at {{< paige/email
     text="labix (at) labitat.dk" >}}
 or meet us at Labitat in Frederiksberg.
 
-
 # Thanks
 
 This IX could not have been started up if not for these people:
-- Thanks to Jori from the awesome [Freetransit project](https://www.freetransit.ch/), for being our sponsoring LIR and helping in RIPE matters.
+- Thanks to Jori from the awesome [Freetransit project](https://www.freetransit.ch/), from Openfactory GMBH, for being our sponsoring LIR and helping in RIPE matters.
 - Thanks to Asbjorn (AS207727) for sharing lots of networking knowledge and giving pointers in the right directions.

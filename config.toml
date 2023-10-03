@@ -25,6 +25,7 @@ style = "tabs"
 
 [languages.en]
 weight = 10
+staticDir = "static"
 
 [[languages.en.menu.main]]
 identifier = "home"
