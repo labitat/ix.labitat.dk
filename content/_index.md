@@ -16,7 +16,7 @@ paige:
     }
 
 title: "LabIX"
-date: 
+date:
 ---
 
 
@@ -30,7 +30,7 @@ LabIX is operational. There is of course work to be done on supporting software 
 
 If you want to contribute. Please let us know.
 
-## Ongoing: *Updated 2023-10-03*
+## Ongoing: *Updated 2024-09-03*
 
 - Creating automation tool-chain: [repository](https://github.com/labitat/labix)
   - Create IX-F export. [IXPDB entry](https://ixpdb.euro-ix.net/en/ixpdb/ixp/1233/)
@@ -54,6 +54,10 @@ If you want to contribute. Please let us know.
 - Create mailing list
 
 ## Already done
+- Retiring peering LAN IPv4 prefix and return it to RIPE (185.0.29.1/24)
+  - It was an unnecessary cost as we currently have no IPv4 networks being announced.
+  - IPv4 peers can use NLRI (IPv4 BFP announcement over IPv6).
+- LabIX stickers!
 - ~~ASN allocation for Route Server~~ AS60247
 - ~~IX prefix allocation as specified in [RIPE 733](https://www.ripe.net/publications/docs/ripe-733#61)~~ Acquired, see [route server](#route-server)
 - ~~Initial Route Server BIRD config~~ See [repository](https://github.com/Hafpaf/labix) using ARouteServer.
@@ -66,7 +70,6 @@ If you want to contribute. Please let us know.
 # Route Server
 
 Our route server identifies by [AS60247](https://as60247.peeringdb.com/) and has the following IP addresses in the peering LAN:
-- IPv4: 185.0.29.1
 - IPv6: 2001:7f8:149:1ab::6:0247:1
 
 # Peering Policy
