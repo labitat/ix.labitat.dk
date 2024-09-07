@@ -18,13 +18,14 @@ paige:
     }
 
 title: "Members"
-#date: 
+#date:
 ---
 
 
 Members present at [Labicolo](https://labitat.dk/wiki/Labicolo).
 
 {{<table "table table-striped table-bordered">}}
+<<<<<<< HEAD
 | AS     	| Member                                	| Speed 	| IPv4        	| IPv6                        	|
 |--------	|---------------------------------------	|-------	|-------------	|-----------------------------	|
 | 60247  	| LabIX Route Servers                   	| 1G    	| 185.0.29.1  	| 2001:7f8:149:1ab::6:0247:1  	|
@@ -34,8 +35,17 @@ Members present at [Labicolo](https://labitat.dk/wiki/Labicolo).
 | 207727 	| Asbjorn Sloth Tonnesen trading as a5n 	| 1G    	| 185.0.29.13 	| 2001:7f8:149:1ab::20:7727:1 	|
 | 198275 	| Thomas Flummer                        	| 1G    	| 185.0.29.14 	| 2001:7f8:149:1ab::19:8275:1 	|
 | 203105 	| Flimpie Ltd                           	| 1G    	| 185.0.29.16 	| 2001:7f8:149:1ab::20:3105:1 	|
+=======
+| AS     	| Member              	| Speed 	| IPv6                        	|
+|--------	|---------------------	|-------	|-----------------------------	|
+| 60247  	| LabIX Route Servers 	| 1G    	| 2001:7f8:149:1ab::6:0247:1  	|
+| 199750 	| Olivia Wenya        	| 1G    	| 2001:7f8:149:1ab::19:9750:1 	|
+| 198886 	| Daniel Brasholt     	| 1G    	| 2001:7f8:149:1ab::19:8886:1 	|
+| 211153 	| Emil Petersen       	| 1G    	| 2001:7f8:149:1ab::21:1153:1 	|
+| 198275 	| Thomas Flummer      	| 1G    	| 2001:7f8:149:1ab::19:8275:1 	|
+>>>>>>> ab557db (Remove some clients and IPv4 prefix)
 {{</table>}}
 
-We encourage IX clients to register on PeeringDB.com if not already done so. We use the database for max prefix length and AS-Set filtering. Our PDB entry can be found [here](https://www.peeringdb.com/ix/4193). AS-sets are attempted to be collected from PeeringDB in case it is not available [ix_clients.yml](https://github.com/Hafpaf/labix/blob/main/ix_client.yml). 
+We encourage IX clients to register on PeeringDB.com if not already done so. We use the database for max prefix length and AS-Set filtering. Our PDB entry can be found [here](https://www.peeringdb.com/ix/4193). AS-sets are attempted to be collected from PeeringDB in case it is not available [ix_clients.yml](https://github.com/Hafpaf/labix/blob/main/ix_client.yml).
 
 The automation tool-chain for exporting members to the IX-F schema (coming soon) and updating PeeringDB currently only includes Route Server clients. This is due to time constrains and as ARouteServer supporting this feature we opted for the working solution. We are aware that forcing IX clients to be route server members is bad practice, which will be worked on as soon as possible.
