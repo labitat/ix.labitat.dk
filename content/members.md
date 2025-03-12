@@ -33,7 +33,6 @@ Members present at [Labicolo](https://labitat.dk/wiki/Labicolo).
 | 211153 	| Emil Petersen                         	| 1G    	| 185.0.29.12 	| 2001:7f8:149:1ab::21:1153:1 	|
 | 207727 	| Asbjorn Sloth Tonnesen trading as a5n 	| 1G    	| 185.0.29.13 	| 2001:7f8:149:1ab::20:7727:1 	|
 | 198275 	| Thomas Flummer                        	| 1G    	| 185.0.29.14 	| 2001:7f8:149:1ab::19:8275:1 	|
-| 198186 	| Overkill Consulting ApS               	| 1G    	| 185.0.29.15 	| 2001:7f8:149:1ab::19:8186:1 	|
 | 203105 	| Flimpie Ltd                           	| 1G    	| 185.0.29.16 	| 2001:7f8:149:1ab::20:3105:1 	|
 {{</table>}}
 
